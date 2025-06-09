@@ -32,7 +32,7 @@ system_prompt = {"role": "system", "content": f"""{prompt} \n <document> \n {res
 st.session_state["messages"].append(system_prompt)
 
 if "model" not in st.session_state:
-    st.session_state.model = "meta-llama/llama-3.3-8b-instruct:free"
+    st.session_state.model = "mistralai/devstral-small:free"
 
 
 # Display chat messages from history on app rerun
