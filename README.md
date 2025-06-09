@@ -7,14 +7,9 @@ This repo contains a super simple Streamlit app that can answer qeustions on a r
 
 ### How to run it on your own machine
 
-1. Install the requirements
-
+1. Install [uv](https://docs.astral.sh/uv/getting-started/installation/).
+2. Create a file to store secrets under `./.streamlit/secrets.toml`.
+3. Run the streamlit app locally.
    ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
+   $ uv run streamlit run streamlit_app.py
    ```
